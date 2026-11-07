@@ -1,0 +1,39 @@
+{
+  "title": "Single product",
+  "description": "Images beside the name, price and availability, then the description and more products from the shop.",
+  "blocks": [
+    {
+      "type": "core/columns",
+      "id": "cp1",
+      "props": { "layout": "1-1", "gap": "lg", "width": "wide" },
+      "children": [
+        {
+          "type": "core/column",
+          "id": "cp2",
+          "props": { "align": "start" },
+          "children": [{ "type": "core/entry-field", "id": "cp3", "props": { "field": "custom", "custom": "gallery", "tag": "div" }, "children": [] }]
+        },
+        {
+          "type": "core/column",
+          "id": "cp4",
+          "props": { "align": "center" },
+          "children": [
+            { "type": "core/text", "id": "cp5", "props": { "text": { "bind": "catalog.brand" } }, "children": [] },
+            { "type": "core/heading", "id": "cp6", "props": { "text": { "bind": "entry.title" }, "level": "1" }, "children": [] },
+            { "type": "core/heading", "id": "cp7", "props": { "text": { "bind": "catalog.price" }, "level": "2" }, "children": [] },
+            { "type": "core/text", "id": "cp8", "props": { "text": { "bind": "catalog.availability" } }, "children": [] },
+            { "type": "core/entry-field", "id": "cp9", "props": { "field": "excerpt", "tag": "p" }, "children": [] }
+          ]
+        }
+      ]
+    },
+    { "type": "core/entry-content", "id": "cp10", "props": { "field": "body" }, "children": [] },
+    { "type": "core/heading", "id": "cp11", "props": { "text": "More from the shop", "level": "2" }, "children": [] },
+    {
+      "type": "catalog/product-grid",
+      "id": "cp12",
+      "props": { "sort": "newest", "limit": 4, "in_stock": true, "price": true, "width": "wide" },
+      "children": []
+    }
+  ]
+}

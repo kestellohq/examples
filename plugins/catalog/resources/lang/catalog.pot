@@ -1,0 +1,321 @@
+# Translation template for catalog (domain "catalog").
+# Made by `bin/cms i18n:extract`. Messages use ICU MessageFormat: keep {placeholders} and plural cases.
+msgid ""
+msgstr ""
+"Project-Id-Version: catalog\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: catalog\n"
+
+#: resources/js/pages/admin/Stock.vue
+msgid "(no title)"
+msgstr ""
+
+#: src/Api/RecordMovement.php
+msgid "A change, or the counted quantity for \"counted\""
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "A product is low when its stock is at or below this, unless it has a level of its own."
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "About the brand"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "After"
+msgstr ""
+
+#: resources/js/pages/admin/LowStockWidget.vue
+msgid "All {n} running low"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Brand"
+msgstr ""
+
+#: src/Api/ListProducts.php
+msgid "Brand entry id"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Brands"
+msgstr ""
+
+#: src/Products.php
+msgid "By name"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Category"
+msgstr ""
+
+#: src/Api/ListProducts.php
+msgid "Category slug"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Change"
+msgstr ""
+
+#: resources/js/pages/admin/LowStockWidget.vue
+msgid "Counting…"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Currency"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Description"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Draft"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Emails the people who manage the catalog when products are running low."
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Enter a whole number."
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "History"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+#: src/CatalogProvider.php
+msgid "How many"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "How many of each product you have, lowest first. A product is low at or below its level."
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Images"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "In stock"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "In the currency chosen under Settings → Catalog."
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Leave empty to use the site-wide level ({n})."
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Leave out sold-out products"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Logo"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Low at"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Low-stock level"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Low-stock level for this product"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Low-stock level saved"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Makers of your products. Each brand page can list its products."
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Next"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "No movements yet."
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "No products yet. Add one under Content → Products."
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Note"
+msgstr ""
+
+#: resources/js/pages/admin/LowStockWidget.vue
+#: resources/js/pages/admin/Stock.vue
+msgid "Nothing is running low."
+msgstr ""
+
+#: src/Api/ListStock.php
+msgid "Only products at or below their low-stock level"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Only products running low"
+msgstr ""
+
+#: resources/js/pages/admin/LowStockWidget.vue
+msgid "Open stock"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Order"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Order number, supplier…"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Page {page} of {last} · {total} total"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Previous"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Price"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Prices and the daily low-stock notice."
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+#: src/CatalogProvider.php
+msgid "Product"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Product categories"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Product category"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Product grid"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+#: src/CatalogProvider.php
+msgid "Products"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Products as cards with image, name and price. Filter by category, sort, and leave out sold-out items."
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Quantity counted"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Record"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Running low"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+#: src/CatalogProvider.php
+msgid "SKU"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Save level"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Search products"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Sections of the catalog. Categories can nest."
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "Settings"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Show prices"
+msgstr ""
+
+#: resources/js/pages/admin/LowStockWidget.vue
+#: resources/js/pages/admin/Stock.vue
+#: resources/js/pages/admin/StockCell.vue
+msgid "Sold out"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+#: src/CatalogProvider.php
+msgid "Stock"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "The first image is the one product lists show."
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Things you sell. Stock is kept on Catalog → Stock."
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Three-letter code, such as EUR, USD or GBP."
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Website"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "What"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "What happened"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "When"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "When there is nothing to show"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Width"
+msgstr ""
+
+#: src/CatalogProvider.php
+msgid "Your own product code. Shown on the stock screen and in low-stock emails."
+msgstr ""
+
+#: resources/js/pages/admin/LowStockWidget.vue
+msgid "{n} left"
+msgstr ""
+
+#: resources/js/pages/admin/Stock.vue
+msgid "{title}: {n} in stock"
+msgstr ""

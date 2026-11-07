@@ -1,0 +1,11 @@
+{
+  "slug": "mail-log",
+  "name": "Mail Log",
+  "version": "1.0.0",
+  "description": "Example plugin: replaces the mail transport contract and writes every email to a log file instead of sending it. Useful in development.",
+  "requires": { "core": "^0.1" },
+  "namespace": "Plugins\\MailLog\\",
+  "provider": "Plugins\\MailLog\\MailLogProvider",
+  "replaces": ["Kestello\\Contracts\\Mail\\Transport"],
+  "permissions": { "mail": ["intercept"] }
+}

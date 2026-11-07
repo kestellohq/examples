@@ -1,0 +1,14 @@
+{
+  "resources/js/pages/@hello/Greeting.vue": {
+    "file": "pages/@hello/Greeting.mjs",
+    "name": "pages/@hello/Greeting",
+    "src": "resources/js/pages/@hello/Greeting.vue",
+    "isEntry": true
+  },
+  "resources/js/pages/About.vue": {
+    "file": "pages/About.mjs",
+    "name": "pages/About",
+    "src": "resources/js/pages/About.vue",
+    "isEntry": true
+  }
+}

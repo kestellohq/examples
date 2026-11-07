@@ -1,0 +1,23 @@
+{
+  "title": "Featured products",
+  "description": "A heading, a line of text, eight products in stock and a link to the whole shop.",
+  "category": "Shop",
+  "blocks": [
+    {
+      "type": "core/group",
+      "id": "fp1",
+      "props": { "tag": "section", "width": "wide" },
+      "children": [
+        { "type": "core/heading", "id": "fp2", "props": { "text": "New in the shop", "level": "2" }, "children": [] },
+        { "type": "core/text", "id": "fp3", "props": { "text": "<p>The latest arrivals, ready to ship.</p>" }, "children": [] },
+        {
+          "type": "catalog/product-grid",
+          "id": "fp4",
+          "props": { "sort": "newest", "limit": 8, "in_stock": true, "price": true, "width": "wide", "empty": "New products are on their way." },
+          "children": []
+        },
+        { "type": "core/button", "id": "fp5", "props": { "text": "See every product", "link": "/products", "variant": "secondary" }, "children": [] }
+      ]
+    }
+  ]
+}

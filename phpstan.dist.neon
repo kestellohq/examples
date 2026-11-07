@@ -1,0 +1,24 @@
+# Static analysis at Kestello's level, against the Kestello checkout in kestello/
+# (sh tools/setup.sh). Run: sh tools/check.sh
+parameters:
+    level: 6
+    phpVersion: 80400
+    tmpDir: .phpstan
+    bootstrapFiles:
+        - kestello/core/bootstrap.php
+    # Kestello's test helpers, which the examples' tests extend
+    scanDirectories:
+        - kestello/tests
+    paths:
+        - plugins
+        - themes
+    excludePaths:
+        - '*/assets/build/*'
+    treatPhpDocTypesAsCertain: false
+    ignoreErrors:
+        # Providers and endpoints override a nullable contract method and return a value every time.
+        - identifier: return.unusedType
+        # Query scopes (Entry::scopeOfType) are called as methods PHPStan can't see yet;
+        # Kestello's own analysis has the same gap. Remove this when its ORM types scopes.
+        - identifier: method.notFound
+          message: '#^Call to an undefined method Kestello\\Framework\\Database\\Orm\\ModelQuery<.+>::ofType\(\)\.$#'

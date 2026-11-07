@@ -1,0 +1,15 @@
+{
+  "slug": "catalog",
+  "name": "Catalog",
+  "version": "1.0.0",
+  "description": "Reference plugin: a product catalog built only on public extension points. Products, brands and categories, stock kept in its own tables, an API for the admin and for headless shops, a stock screen, a dashboard widget, a column on the products list, a product grid block, a pattern and a template, and a daily low-stock notice.",
+  "requires": {
+    "core": "^0.1",
+    "php": ">=8.4"
+  },
+  "namespace": "Plugins\\Catalog\\",
+  "provider": "Plugins\\Catalog\\CatalogProvider",
+  "permissions": {
+    "mail": ["send"]
+  }
+}

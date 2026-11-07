@@ -1,0 +1,10 @@
+{
+  "slug": "base-child",
+  "name": "Base Child",
+  "version": "1.0.0",
+  "description": "Example child theme: inherits everything from Base, overrides the About page and the hello plugin's greeting page.",
+  "requires": {
+    "core": "^0.1"
+  },
+  "parent": "base"
+}

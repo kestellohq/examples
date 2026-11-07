@@ -1,0 +1,42 @@
+{
+  "__plugin-vue_export-helper-BDNMzG2s.js": {
+    "file": "chunks/_plugin-vue_export-helper-BDNMzG2s.js",
+    "name": "_plugin-vue_export-helper"
+  },
+  "resources/js/pages/Greeting.vue": {
+    "file": "pages/Greeting-Uh5rCexX.js",
+    "name": "pages/Greeting",
+    "src": "resources/js/pages/Greeting.vue",
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-BDNMzG2s.js"
+    ],
+    "css": [
+      "assets/Greeting-BDDa0Yw4.css"
+    ]
+  },
+  "resources/js/pages/admin/Greetings.vue": {
+    "file": "pages/admin/Greetings-BKX9B5Ji.js",
+    "name": "pages/admin/Greetings",
+    "src": "resources/js/pages/admin/Greetings.vue",
+    "isEntry": true
+  },
+  "resources/js/pages/admin/GreetingsWidget.vue": {
+    "file": "pages/admin/GreetingsWidget-BcAlOJj9.js",
+    "name": "pages/admin/GreetingsWidget",
+    "src": "resources/js/pages/admin/GreetingsWidget.vue",
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-BDNMzG2s.js"
+    ],
+    "css": [
+      "assets/GreetingsWidget-B9l0Utiv.css"
+    ]
+  },
+  "resources/js/pages/admin/SayHello.vue": {
+    "file": "pages/admin/SayHello-JjJauJXE.js",
+    "name": "pages/admin/SayHello",
+    "src": "resources/js/pages/admin/SayHello.vue",
+    "isEntry": true
+  }
+}

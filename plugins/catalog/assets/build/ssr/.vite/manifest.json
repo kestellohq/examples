@@ -1,0 +1,54 @@
+{
+  "__plugin-vue_export-helper-DjkACiAr.mjs": {
+    "file": "chunks/_plugin-vue_export-helper-DjkACiAr.mjs",
+    "name": "_plugin-vue_export-helper"
+  },
+  "resources/js/pages/admin/LowStockWidget.vue": {
+    "file": "pages/admin/LowStockWidget.mjs",
+    "name": "pages/admin/LowStockWidget",
+    "src": "resources/js/pages/admin/LowStockWidget.vue",
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DjkACiAr.mjs"
+    ],
+    "css": [
+      "assets/LowStockWidget-oD3f9KtM.css"
+    ]
+  },
+  "resources/js/pages/admin/Stock.vue": {
+    "file": "pages/admin/Stock.mjs",
+    "name": "pages/admin/Stock",
+    "src": "resources/js/pages/admin/Stock.vue",
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DjkACiAr.mjs"
+    ],
+    "css": [
+      "assets/Stock-B7oA-s_1.css"
+    ]
+  },
+  "resources/js/pages/admin/StockCell.vue": {
+    "file": "pages/admin/StockCell.mjs",
+    "name": "pages/admin/StockCell",
+    "src": "resources/js/pages/admin/StockCell.vue",
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DjkACiAr.mjs"
+    ],
+    "css": [
+      "assets/StockCell-BM7kL365.css"
+    ]
+  },
+  "resources/js/pages/blocks/ProductGrid.vue": {
+    "file": "pages/blocks/ProductGrid.mjs",
+    "name": "pages/blocks/ProductGrid",
+    "src": "resources/js/pages/blocks/ProductGrid.vue",
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DjkACiAr.mjs"
+    ],
+    "css": [
+      "assets/ProductGrid-ME4PlAF9.css"
+    ]
+  }
+}

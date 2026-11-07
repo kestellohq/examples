@@ -1,0 +1,13 @@
+{
+  "slug": "hello",
+  "name": "Hello",
+  "version": "1.2.0",
+  "description": "Example plugin: a route, a Vue page, a migration, shared page data, a filter, an event listener, a CLI command, a background job, and an admin side built on its own API (a page, a dashboard widget, a People column, a Person panel and a settings tab).",
+  "requires": {
+    "core": "^0.1",
+    "php": ">=8.4"
+  },
+  "namespace": "Plugins\\Hello\\",
+  "provider": "Plugins\\Hello\\HelloProvider",
+  "permissions": {}
+}
