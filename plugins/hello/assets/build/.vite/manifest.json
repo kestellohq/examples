@@ -4,7 +4,7 @@
     "name": "_plugin-vue_export-helper"
   },
   "resources/js/pages/Greeting.vue": {
-    "file": "pages/Greeting-Uh5rCexX.js",
+    "file": "pages/Greeting-DQldCTDh.js",
     "name": "pages/Greeting",
     "src": "resources/js/pages/Greeting.vue",
     "isEntry": true,
@@ -12,7 +12,7 @@
       "__plugin-vue_export-helper-BDNMzG2s.js"
     ],
     "css": [
-      "assets/Greeting-BDDa0Yw4.css"
+      "assets/Greeting-Cq_27c-z.css"
     ]
   },
   "resources/js/pages/admin/Greetings.vue": {

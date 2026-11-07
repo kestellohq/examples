@@ -14,15 +14,25 @@ const page = usePage();
 
 <template>
     <Head :title="phrase || `Hello ${name}`" />
-    <section class="container py-5 hello-plugin">
+    <section class="hello-page">
         <h1>{{ phrase || `Hello, ${name}!` }}</h1>
-        <p class="text-secondary">Rendered by the <strong>hello</strong> plugin · {{ page.props.hello?.badge }}</p>
+        <p class="hello-page__note">Rendered by the <strong>hello</strong> plugin · {{ page.props.hello?.badge }}</p>
         <Wave :name="name" :greetings="greetings" />
     </section>
 </template>
 
 <style scoped>
-.hello-plugin h1 {
-    color: #7c3aed;
+/* The plugin styles its own markup. Colours come from the theme's block variables, so the page
+   fits whichever theme is active. */
+.hello-page {
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+.hello-page h1 {
+    color: var(--block-accent, #2448c9);
+}
+.hello-page__note {
+    opacity: 0.75;
 }
 </style>
