@@ -12,8 +12,19 @@ const page = usePage();
 
 <template>
     <Head :title="`Hello ${name}`" />
-    <section class="container py-5">
-        <h1>👋 {{ name }}, greetings from the child theme</h1>
-        <p class="text-secondary">This page overrides the hello plugin's page without touching the plugin · {{ page.props.hello?.badge }}</p>
+    <section class="child-page page">
+        <h1>{{ name }}, greetings from the child theme</h1>
+        <p class="child-page__note">This page overrides the hello plugin's page without touching the plugin · {{ page.props.hello?.badge }}</p>
     </section>
 </template>
+
+<style scoped>
+.child-page {
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+.child-page__note {
+    color: var(--wall-ink-2);
+}
+</style>

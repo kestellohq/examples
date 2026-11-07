@@ -1,14 +1,30 @@
 {
+  "__plugin-vue_export-helper-DjkACiAr.mjs": {
+    "file": "chunks/_plugin-vue_export-helper-DjkACiAr.mjs",
+    "name": "_plugin-vue_export-helper"
+  },
   "resources/js/pages/@hello/Greeting.vue": {
     "file": "pages/@hello/Greeting.mjs",
     "name": "pages/@hello/Greeting",
     "src": "resources/js/pages/@hello/Greeting.vue",
-    "isEntry": true
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DjkACiAr.mjs"
+    ],
+    "css": [
+      "assets/Greeting-CCZ4LrOL.css"
+    ]
   },
   "resources/js/pages/About.vue": {
     "file": "pages/About.mjs",
     "name": "pages/About",
     "src": "resources/js/pages/About.vue",
-    "isEntry": true
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DjkACiAr.mjs"
+    ],
+    "css": [
+      "assets/About-CoSURgDM.css"
+    ]
   }
 }
