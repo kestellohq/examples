@@ -1,6 +1,6 @@
 #!/bin/sh
 # Get the Kestello checkout that tests, checks and builds run against, into ./kestello,
-# with the pinned PHP tools (PHP CS Fixer, PHPStan) that come with it and its npm
+# with the PHP tools its composer.lock pins (PHP CS Fixer, PHPStan) and its npm
 # packages for building the Vue pages.
 #
 #   sh tools/setup.sh                     a sibling ../cms folder if there is one, else a clone
@@ -20,7 +20,10 @@ else
     echo "kestello/ is kestellohq/cms at ${KESTELLO_REF:-develop}."
 fi
 
-sh kestello/tools/fetch.sh
+# PHP CS Fixer and PHPStan, pinned by the checkout's composer.lock (dev tools only: Kestello itself has no PHP dependencies)
+if [ ! -x kestello/vendor/bin/phpstan ]; then
+    (cd kestello && composer install --quiet --no-interaction)
+fi
 
 # the Vite build runs from the checkout's node_modules
 if [ ! -d kestello/node_modules ]; then
